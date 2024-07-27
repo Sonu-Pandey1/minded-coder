@@ -1,0 +1,13 @@
+.navbar{
+    background-color: rgb(255, 240, 229);
+
+    .navbar-nav{
+        .nav-item :hover{
+            border-radius: 100px;
+             background-color: rgb(235, 220, 209);
+             
+             color: blue;
+        }
+    }
+ 
+}
