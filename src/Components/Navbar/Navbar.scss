@@ -1,15 +1,16 @@
-// .active{
-//     color: blue !important;
-//     border-radius: 100px;
-//     // background-color: rgb(235, 220, 209);
-// }
+
 
 .nav-link {
   padding: 3px;
 }
 
 .navbar {
+      
+  box-shadow: 0px 4px 12px rgb(255, 255, 255);
+  // border-top-left-radius: 30px;
+  // border-top-right-radius:30px;
   background-color: rgb(255, 240, 229);
+  // background-color: red;
   color: black;
   font-weight: 500;
 
@@ -31,11 +32,12 @@
         color: #ff7579;
       }
       .courses {
-        background: #121fcf;
-        background: linear-gradient(to right, #121fcf 0%, #ff7579 100%);
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        color: orange;
+        // background: #121fcf;
+        // background: linear-gradient(to right, #121fcf 0%, #ff7579 100%);
+        // background-clip: text;
+        // -webkit-background-clip: text;
+        // -webkit-text-fill-color: transparent;
       }
     }
     .nav-item {
@@ -44,8 +46,13 @@
     .nav-item :hover {
       border-radius: 100px;
       background-color: rgb(229, 235, 249);
-
       color: blue;
     }
   }
+}
+
+.active{
+  color: blue !important;
+  border-radius: 100px;
+  // background-color: rgb(235, 220, 209);
 }

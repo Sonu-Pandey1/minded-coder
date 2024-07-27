@@ -1,10 +1,13 @@
 import { NavLink } from "react-router-dom";
 import "../Hader/Hader.scss";
+import { useState } from "react";
 
 function Header() {
+  const [show, setShow] = useState(true)
   return (
     <>
-      <div className="top-bar text-center p-2 text-white fw-medium ">
+      {show ? 
+      <div className="top-bar text-center p-3 text-white fw-medium ">
         <span className="pe-4 ">
           Learn more with exclusive courses, quizzes, and extra practice content
         </span>
@@ -14,7 +17,9 @@ function Header() {
         >
           Learn more <span className=" fw-bolder">→</span>
         </NavLink>
+        <button onClick={()=>{setShow(false)}} className="ms-2  btn-danger headerBtn">X</button>
       </div>
+       : null}
     </>
   );
 }
