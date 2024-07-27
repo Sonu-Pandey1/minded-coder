@@ -7,7 +7,7 @@ function Navbar() {
       <nav className="navbar navbar-expand-lg navbar-light ">
         <div className="container ">
         <NavLink to={"/"} className="nav-link">
-            <h3>Minded Coder</h3>
+            <h3 className="title">Minded Coder</h3>
         </NavLink>
           <button
             className="navbar-toggler"
@@ -26,13 +26,13 @@ function Navbar() {
           >
             <ul className="navbar-nav p-1 mb-lg-0 gap-3 ">
               <li className="nav-item  ">
-                <NavLink to={"/"} className="nav-link">
+                <NavLink  to={"/"} className="nav-link home">
                   Home
                 </NavLink>
               </li>
 
               <li className="nav-item">
-                <NavLink to={"/courses"} className="nav-link">
+                <NavLink to={"/courses"} className="nav-link courses">
                   Courses
                 </NavLink>
               </li>
@@ -42,7 +42,7 @@ function Navbar() {
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to={"/upcomingbatches"} className="nav-link">
+                <NavLink to={"/upcomingbatches"} className="nav-link upcomingbatches">
                   Upcoming Batches
                 </NavLink>
               </li>
@@ -65,10 +65,10 @@ function Navbar() {
             <div>
               <ul className="d-flex ms-auto flex-wrap mb-0">
                 <li className="me-2 list-unstyled">
-                  <button className="btn btn-primary">Login</button>
+                  <button className="btn btn-outline-primary">Login</button>
                 </li>
                 <li className="list-unstyled">
-                  <button className="btn btn-primary">SignUp</button>
+                  <button className="btn btn-outline-primary">SignUp</button>
                 </li>
               </ul>
             </div>

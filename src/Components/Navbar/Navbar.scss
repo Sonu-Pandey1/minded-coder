@@ -1,13 +1,51 @@
-.navbar{
-    background-color: rgb(255, 240, 229);
+// .active{
+//     color: blue !important;
+//     border-radius: 100px;
+//     // background-color: rgb(235, 220, 209);
+// }
 
-    .navbar-nav{
-        .nav-item :hover{
-            border-radius: 100px;
-             background-color: rgb(235, 220, 209);
-             
-             color: blue;
-        }
+.nav-link {
+  padding: 3px;
+}
+
+.navbar {
+  background-color: rgb(255, 240, 229);
+  color: black;
+  font-weight: 500;
+
+  .title {
+    color: black;
+    background-color: none !important;
+  }
+
+  .navbar-nav {
+    li {
+      .nav-link {
+        // background-color: red;
+        color: black;
+      }
+      .home {
+        color: #662eed;
+      }
+      .upcomingbatches {
+        color: #ff7579;
+      }
+      .courses {
+        background: #121fcf;
+        background: linear-gradient(to right, #121fcf 0%, #ff7579 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
     }
- 
+    .nav-item {
+      border-radius: 100px;
+    }
+    .nav-item :hover {
+      border-radius: 100px;
+      background-color: rgb(229, 235, 249);
+
+      color: blue;
+    }
+  }
 }

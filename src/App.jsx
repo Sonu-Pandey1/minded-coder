@@ -8,6 +8,7 @@ import UpcomingBatches from "./Pages/UpcomingBatches"
 import About from "./Pages/AboutUs"
 import Blog from "./Pages/Blog"
 import Contact from "./Pages/Contact"
+import Hader from "./Components/Hader/Hader"
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
 
   return (
     <>
+    <Hader/>
     <Navbar/>
       <Routes>
         <Route path="/">
