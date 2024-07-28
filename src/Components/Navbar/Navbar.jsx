@@ -4,7 +4,7 @@ import "../Navbar/Navbar.scss";
 function Navbar() {
     return (
         <>
-            <nav className="navbar sticky-top    navbar-expand-lg navbar-light ">
+            <nav className="navbar sticky-top p-3 navbar-expand-lg navbar-light ">
                 <div className="container ">
                     <NavLink to={"/"} className="nav-link">
                         <h3 className="title">Minded Coder</h3>
