@@ -102,10 +102,10 @@ function Home() {
             <div className="col p-3">
               <h1 className="">Get Everything You Need !</h1>
             </div>
-            <div className="col m-3 border p-4 align-content-center">
+            <div className="col  box m-3 border p-4 align-content-center">
               <div className="row">
                 <div className="col col-4 text-center">
-                  <img src="https://scalive.in/assets/images/icons/icon_career.png" alt="img" />
+                  <img className="img img-fluid img-thumbnail"  src="https://scalive.in/assets/images/icons/icon_career.png" alt="img" />
                 </div>
                 <div className="col col-8">
                   <h4>Build A Career</h4>
@@ -113,10 +113,10 @@ function Home() {
                 </div>
               </div>
             </div>
-            <div className="col m-3 border p-4 align-content-center">
+            <div className="col box m-3 border p-4 align-content-center">
               <div className="row">
                 <div className="col col-4 text-center">
-                  <img src="https://scalive.in/assets/images/icons/icon_skills.png" alt="img" />
+                  <img className="img img-fluid img-thumbnail" src="https://scalive.in/assets/images/icons/icon_skills.png" alt="img" />
                 </div>
                 <div className="col col-8">
                   <h4>Explore Skills</h4>
@@ -126,10 +126,10 @@ function Home() {
             </div>
           </div>
           <div className="row justify-content-center">
-            <div className="col m-3 col-4 border p-4 ">
+            <div className="col box m-3 col-4 border p-4 ">
               <div className="row">
                 <div className="col col-4 text-center">
-                  <img src="https://scalive.in/assets/images/icons/icon_subjects.png" alt="img" />
+                  <img className="img img-fluid img-thumbnail"  src="https://scalive.in/assets/images/icons/icon_subjects.png" alt="img" />
                 </div>
                 <div className="col col-8">
                   <h4>Gain A Skill</h4>
@@ -137,10 +137,10 @@ function Home() {
                 </div>
               </div>
             </div>
-            <div className="col m-3 col-4 border p-4">
+            <div className="col box m-3 col-4 border p-4">
               <div className="row">
                 <div className="col col-4 text-center">
-                  <img src="	https://scalive.in/assets/images/icons/icon_knowledge.png" alt="img" />
+                  <img className="img img-fluid img-thumbnail"    src="	https://scalive.in/assets/images/icons/icon_knowledge.png" alt="img" />
                 </div>
                 <div className="col col-8">
                   <h4>Share knowledge</h4>
@@ -150,6 +150,12 @@ function Home() {
             </div>
           </div>
         </div>
+      </div>
+
+      {/* Courses Section */}
+
+      <div>
+
       </div>
     </>
   )

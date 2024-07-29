@@ -23,15 +23,8 @@
             left: 50%;
             top: 25%;
         }
-        // .gg{
-        //     position: absolute;
-        // }
     }
 }
-
-
-
-
 
 .imagesWrapper {
     display: flex;
@@ -93,5 +86,17 @@
     // border-radius: 100%;
 }
 
+// fetures section 
 
+.box{
+    // background-color: #80c6ff;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+
+    &:hover{
+        background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+        transform: scale(1.1);
+        
+    }
+}
 
