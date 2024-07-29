@@ -8,7 +8,7 @@ function Home() {
         <div className=" main_div d-flex align-items-center">
           <div className="container  ">
             <div className="row">
-              <div className="col bg-info p-4 align-content-center">
+              <div className="col p-4 firstCol align-content-center">
                 <h1>Welcome to
                   <TypeAnimation
                     sequence={[
@@ -76,20 +76,77 @@ function Home() {
                   <button className=" ms-4 btn btn-outline-warning">Tutorials</button>
                 </div>
               </div>
-              <div className="col">
+              <div className="col pt-5 align-content-center">
                 <div className="imagesWrapper">
-                  <div className="imgWrapper blue " id="person1">
-                    <img src="https://scalive.in/assets/images/banner/banner_img_11.png	" alt="avtar1" />
+                  <div className="imgWrapper orange " id="person1">
+                    <img className="imgorange" src="https://scalive.in/assets/images/banner/banner_img_11.png	" alt="avtar1" />
                   </div>
-                  <div className="imgWrapper pink ">
+                  <div className="imgWrapper blue ">
                     <img className="" src="https://scalive.in/assets/images/banner/banner_img_22.png" alt="avtar2" />
                   </div>
-                  <div className="imgWrapper orange">
+                  <div className="imgWrapper pink">
                     <img src="https://scalive.in/assets/images/banner/banner_img_33.png" alt="avtar3" />
                   </div>
                 </div>
               </div>
-              
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* fetures section */}
+
+      <div className="fetures_section m-4">
+        <div className="container ">
+          <div className="row justify-content-between">
+            <div className="col p-3">
+              <h1 className="">Get Everything You Need !</h1>
+            </div>
+            <div className="col m-3 border p-4 align-content-center">
+              <div className="row">
+                <div className="col col-4 text-center">
+                  <img src="https://scalive.in/assets/images/icons/icon_career.png" alt="img" />
+                </div>
+                <div className="col col-8">
+                  <h4>Build A Career</h4>
+                  <p>Everything you need to land job</p>
+                </div>
+              </div>
+            </div>
+            <div className="col m-3 border p-4 align-content-center">
+              <div className="row">
+                <div className="col col-4 text-center">
+                  <img src="https://scalive.in/assets/images/icons/icon_skills.png" alt="img" />
+                </div>
+                <div className="col col-8">
+                  <h4>Explore Skills</h4>
+                  <p>See how varies skills you have</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row justify-content-center">
+            <div className="col m-3 col-4 border p-4 ">
+              <div className="row">
+                <div className="col col-4 text-center">
+                  <img src="https://scalive.in/assets/images/icons/icon_subjects.png" alt="img" />
+                </div>
+                <div className="col col-8">
+                  <h4>Gain A Skill</h4>
+                  <p>Focus on what`s you need</p>
+                </div>
+              </div>
+            </div>
+            <div className="col m-3 col-4 border p-4">
+              <div className="row">
+                <div className="col col-4 text-center">
+                  <img src="	https://scalive.in/assets/images/icons/icon_knowledge.png" alt="img" />
+                </div>
+                <div className="col col-8">
+                  <h4>Share knowledge</h4>
+                  <p>Discuss and get clear knowledge</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -97,6 +154,6 @@ function Home() {
     </>
   )
 }
-// todo create 2 col left is code with harrt and rif=ght is scalive ok .
+
 
 export default Home
