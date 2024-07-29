@@ -1,3 +1,4 @@
+import Card from "../Components/Card/Card"
 import "../Pages/Home.scss"
 import { TypeAnimation } from "react-type-animation"
 
@@ -154,7 +155,42 @@ function Home() {
 
       {/* Courses Section */}
 
-      <div>
+      <div className="courses_section mt-5 mb-5">
+      
+      <div className="container c2">
+      <div className="row">
+          <div className=" d-flex justify-content-between">
+            <h2>Most Popular Courses</h2>
+            <button className="btn btn-dark">Explore All Course</button>
+          </div>
+        </div>
+        <div className="row">
+        <div className="col mt-5">
+          <Card imgUrl ={"https://scalive.in/assets/images/course/c_prog.png"} title = {"HTML"} lessons = {" 50 Lessons"} type={"Biginner"}/>
+        </div>
+        <div className="col mt-5">
+          <Card imgUrl ={"https://scalive.in/assets/images/course/c_prog.png"} title = {"HTML"} lessons = {" 50 Lessons"} type={"Biginner"}/>
+        </div>
+        <div className="col mt-5">
+          <Card imgUrl ={"https://scalive.in/assets/images/course/c_prog.png"} title = {"HTML"} lessons = {" 50 Lessons"} type={"Biginner"}/>
+        </div>
+        <div className="col mt-5">
+          <Card imgUrl ={"https://scalive.in/assets/images/course/c_prog.png"} title = {"HTML"} lessons = {" 50 Lessons"} type={"Biginner"}/>
+        </div>
+        <div className="col mt-5">
+          <Card imgUrl ={"https://scalive.in/assets/images/course/c_prog.png"} title = {"HTML"} lessons = {" 50 Lessons"} type={"Biginner"}/>
+        </div>
+        <div className="col mt-5">
+          <Card imgUrl ={"https://scalive.in/assets/images/course/c_prog.png"} title = {"HTML"} lessons = {" 50 Lessons"} type={"Biginner"}/>
+        </div>
+        <div className="col mt-5">
+          <Card imgUrl ={"https://scalive.in/assets/images/course/c_prog.png"} title = {"HTML"} lessons = {" 50 Lessons"} type={"Biginner"}/>
+        </div>
+        <div className="col mt-5">
+          <Card imgUrl ={"https://scalive.in/assets/images/course/c_prog.png"} title = {"HTML"} lessons = {" 50 Lessons"} type={"Biginner"}/>
+        </div>
+        </div>
+      </div>
 
       </div>
     </>
