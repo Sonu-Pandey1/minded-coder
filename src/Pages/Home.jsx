@@ -156,11 +156,10 @@ function Home() {
       {/* Courses Section */}
 
       <div className="courses_section mt-5 mb-5">
-      
       <div className="container c2">
       <div className="row">
           <div className=" d-flex justify-content-between">
-            <h2>Most Popular Courses</h2>
+            <h2 className="gradient-text">Most Popular Courses</h2>
             <button className="btn btn-dark">Explore All Course</button>
           </div>
         </div>
@@ -169,25 +168,25 @@ function Home() {
           <Card imgUrl ={"https://scalive.in/assets/images/course/c_prog.png"} title = {"HTML"} lessons = {" 50 Lessons"} type={"Biginner"}/>
         </div>
         <div className="col mt-5">
-          <Card imgUrl ={"https://scalive.in/assets/images/course/c_prog.png"} title = {"HTML"} lessons = {" 50 Lessons"} type={"Biginner"}/>
+          <Card imgUrl ={"https://scalive.in/assets/images/course/cpp_prog.png"} title = {"CSS"} lessons = {" 50 Lessons"} type={"Biginner"}/>
         </div>
         <div className="col mt-5">
-          <Card imgUrl ={"https://scalive.in/assets/images/course/c_prog.png"} title = {"HTML"} lessons = {" 50 Lessons"} type={"Biginner"}/>
+          <Card imgUrl ={"https://scalive.in/assets/images/course/3.png"} title = {"BOOTSTRAP"} lessons = {" 50 Lessons"} type={"Biginner"}/>
         </div>
         <div className="col mt-5">
-          <Card imgUrl ={"https://scalive.in/assets/images/course/c_prog.png"} title = {"HTML"} lessons = {" 50 Lessons"} type={"Biginner"}/>
+          <Card imgUrl ={"https://scalive.in/assets/images/course/cpython_prog.png"} title = {"JAVASCRIPT"} lessons = {" 50 Lessons"} type={"Biginner"}/>
         </div>
         <div className="col mt-5">
-          <Card imgUrl ={"https://scalive.in/assets/images/course/c_prog.png"} title = {"HTML"} lessons = {" 50 Lessons"} type={"Biginner"}/>
+          <Card imgUrl ={"https://scalive.in/assets/images/course/7.png"} title = {"REACT"} lessons = {" 50 Lessons"} type={"Biginner"}/>
         </div>
         <div className="col mt-5">
-          <Card imgUrl ={"https://scalive.in/assets/images/course/c_prog.png"} title = {"HTML"} lessons = {" 50 Lessons"} type={"Biginner"}/>
+          <Card imgUrl ={"https://scalive.in/assets/images/course/c9.png"} title = {"REDUX/TOOLKIT"} lessons = {" 50 Lessons"} type={"Biginner"}/>
         </div>
         <div className="col mt-5">
-          <Card imgUrl ={"https://scalive.in/assets/images/course/c_prog.png"} title = {"HTML"} lessons = {" 50 Lessons"} type={"Biginner"}/>
+          <Card imgUrl ={"https://scalive.in/assets/images/course/13.png"} title = {"MONGODB"} lessons = {" 50 Lessons"} type={"Biginner"}/>
         </div>
         <div className="col mt-5">
-          <Card imgUrl ={"https://scalive.in/assets/images/course/c_prog.png"} title = {"HTML"} lessons = {" 50 Lessons"} type={"Biginner"}/>
+          <Card imgUrl ={"https://scalive.in/assets/images/course/c12.png"} title = {"EXPRESS"} lessons = {" 50 Lessons"} type={"Biginner"}/>
         </div>
         </div>
       </div>

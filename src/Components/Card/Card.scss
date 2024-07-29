@@ -1,0 +1,19 @@
+.card{
+    transition: all 0.3s ease-in-out;
+    .title{
+        font-size: 22px;
+
+    }
+    .icon1{
+        font-size: 16px;
+    }
+    .icon2{
+        font-size: 16px;
+        color: blue !important;
+    }
+
+    &:hover{
+        // transform: translateY(-15px);
+        transform: scale(1.1);
+    }
+}
