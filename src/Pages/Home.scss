@@ -107,13 +107,31 @@
   // margin: 200px 0px;
   .row {
     .gradient-text {
-    //   font-size: 48px;
-    //   font-weight: bold;
+      //   font-size: 48px;
+      //   font-weight: bold;
       background: linear-gradient(120deg, orange 0%, #7245db 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
-    //   text-fill-color: transparent;
+      //   text-fill-color: transparent;
+    }
+  }
+}
+
+// upperFooterSection--------->
+
+.uf-session{
+  // background-color :#C2F5B7;
+  background-color:#FACB3B;
+  height: 100%;
+  width: 100%;
+  .row{
+    align-content: center;
+    .col1{
+      
+      height: 100%;
+      width: 100%;
+      // background-color: #7245db;
     }
   }
 }

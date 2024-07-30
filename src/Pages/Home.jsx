@@ -193,9 +193,29 @@ function Home() {
 
       </div>
 
-      {/* section */}
+      {/* upperFooter section */}
 
-      <div className=""></div>
+      <div className="uf-session">
+        <div className="container-fluid">
+          <div className="row">
+
+            <div className="col-2 text-end align-content-center">
+              <img src="https://scalive.in/assets/images/shapes/line_shape_4.png" alt="" />
+            </div>
+
+            <div className="col col1 p-5 m-5 text-center align-content-center">
+              <h1>Ready to kick-start your career?</h1>
+              <button className="btn btn-outline-dark mt-4">Join Us Now</button>
+            </div>
+
+            <div className="col-2 align-content-center mt-5 pt-5">
+              <img src="	https://scalive.in/assets/images/shapes/shape_5.png" alt="" />
+            </div>
+          </div>
+
+        </div>
+
+      </div>
     </>
   )
 }
