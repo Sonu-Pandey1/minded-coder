@@ -1,0 +1,49 @@
+
+// upperFooterSection--------->
+
+.uf-session{
+    // background-color :#C2F5B7;
+    background-color:#FACB3B;
+    height: 100%;
+    width: 100%;
+    .row{
+      align-content: center;
+      .col1{
+        
+        height: 100%;
+        width: 100%;
+        // background-color: #7245db;
+      }
+    }
+  }
+  
+  // Footer Section ----------->>>
+  
+  .footerSection{
+    color: #B6B7BD;
+    background-color: #090E23;
+  
+    .icons{
+      color: #B6B7BD;
+    }
+  
+    .imgContainer{
+      // border-radius: 20%;
+      // background-color: #ffffff;
+      .img1{
+        background-color: #ffffff;
+        padding: 10px 20px;
+        border-radius: 10px;
+        height: 53px;
+      }
+      .img2{
+        background-color: #ffffff;
+        padding: 10px 20px;
+        border-radius: 10px;
+        height: 55px;
+      }
+    }
+  
+  }
+  
+  

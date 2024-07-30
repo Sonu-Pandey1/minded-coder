@@ -9,6 +9,7 @@ import About from "./Pages/AboutUs"
 import Blog from "./Pages/Blog"
 import Contact from "./Pages/Contact"
 import Hader from "./Components/Hader/Hader"
+import Footer from "./Components/Footer/Footer"
 
 
 function App() {
@@ -29,6 +30,8 @@ function App() {
         <Route path="contact" element={<Contact/>}/>
         </Route>
       </Routes>
+      <Footer/>
+
     </>
   )
 }
