@@ -10,8 +10,8 @@ import { faChalkboardTeacher,    } from "@fortawesome/free-solid-svg-icons"
 function Card({imgUrl,title,lessons,type}) {
     return (
         <>
-            <div className="card" style={{ width: "19rem" , borderRadius: "10px" }}>
-                <img className="card-img-top" src={imgUrl} alt="Card image" />
+            <div className="card " style={{ width: "19rem" , borderRadius: "10px" }}>
+                <img className="card-img-top m-auto  p-4 " src={imgUrl} alt="Card image" />
                 <div className="card-body">
                     <h1 className="card-title ms-4 title">{title}</h1>
                     <p className="card-text"></p>

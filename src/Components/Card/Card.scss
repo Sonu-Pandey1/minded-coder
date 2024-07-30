@@ -1,19 +1,26 @@
-.card{
-    transition: all 0.3s ease-in-out;
-    .title{
-        font-size: 22px;
+.card {
+  .card-img-top {
+    // background-color: aquamarine;
+    text-align: center;
+    height: 50%;
+    width: 50%;
+  }
 
-    }
-    .icon1{
-        font-size: 16px;
-    }
-    .icon2{
-        font-size: 16px;
-        color: blue !important;
-    }
+  transition: all 0.3s ease-in-out;
+  .title {
+    font-size: 22px;
+  }
+  .icon1 {
+    font-size: 16px;
+  }
+  .icon2 {
+    font-size: 16px;
+    color: blue !important;
+  }
 
-    &:hover{
-        // transform: translateY(-15px);
-        transform: scale(1.1);
-    }
+  &:hover {
+    // transform: translateY(-15px);
+    transform: scale(1.1);
+    // background-image: linear-gradient(90deg, #d4fc79 0%, #96e6a1 100%);
+  }
 }
