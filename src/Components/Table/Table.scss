@@ -1,0 +1,22 @@
+
+
+.table{
+    width: 100%;
+    border-collapse: collapse;
+
+    .table-head{
+        border-bottom: 1px solid rgb(0, 0, 0);
+        tr{
+            transition: all 1.5s ease-in-out;
+        }
+    }
+}
+
+.table tbody tr:hover {
+    cursor: pointer;
+    // transform: scale(1.01);
+    background-color: #f5f5f5 !important; /* Light grey background */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+
