@@ -4,10 +4,10 @@ import "./UpcomingBatches.scss"
 function UpcomingBatches() {
   return (
     <div className="MainContainer">
-      <h1 className="text-center pt-5">Our Upcoming Batches</h1>
+      <h1 className="text-center">Our Upcoming Batches</h1>
       <div className="container">
         <div className="row">
-          <div className="col pt-5 pb-5">
+          <div className="col ">
             <Table/>
           </div>
         </div>
