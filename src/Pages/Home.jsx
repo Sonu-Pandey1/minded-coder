@@ -1,6 +1,5 @@
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import Card from "../Components/Card/Card"
-import Footer from "../Components/Footer/Footer"
 import "../Pages/Home.scss"
 import { TypeAnimation } from "react-type-animation"
 // import { faFacebook, faInstagram, faLinkedin, faTelegramPlane, faYoutube } from "@fortawesome/free-brands-svg-icons"

@@ -1,19 +1,18 @@
+.MainContainer {
+  // background-color:#FFF0E5;
+  background-image: linear-gradient(-225deg, #e3fdf5 0%, #ffe6fa 100%);
 
+  width: 100%;
+  height: 100%;
 
-.MainContainer{
-    background-color:#FFF0E5;
-    width: 100%;
-    height: 100%;
+  h1 {
+    padding-top: 15vh;
+  }
 
-    h1{
-        padding-top: 15vh;
+  .row {
+    .col {
+      margin-bottom: 15vh;
+      margin-top: 5vh;
     }
-
-    .row{
-        .col{
-            margin-bottom: 15vh;
-            margin-top: 5vh;
-        }
-    }
-
+  }
 }
