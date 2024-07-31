@@ -10,7 +10,7 @@ import Blog from "./Pages/Blog"
 import Contact from "./Pages/Contact"
 import Hader from "./Components/Hader/Hader"
 import Footer from "./Components/Footer/Footer"
-
+import "./App.css"
 
 function App() {
 

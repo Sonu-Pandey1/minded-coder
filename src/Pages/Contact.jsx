@@ -41,7 +41,7 @@ const Contact = () => {
     <div className='Contact'>
       <div className="row">
         <div className="col">
-          <h2 className='text-center'>Contact Us</h2>
+          <h1 className='text-center textGradient'>Contact Us</h1>
         </div>
       </div>
       <div className=" container  contact-container">

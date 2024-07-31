@@ -7,14 +7,15 @@ import { faChalkboardTeacher, } from "@fortawesome/free-solid-svg-icons"
 // import { faRegistered } from "@fortawesome/fre-regular-svg-icons"
 
 
-function Card({ imgUrl, title, lessons, type, icons, pera }) {
+function Card({ imgUrl, title, lessons, type, icons, pera , page,}) {
     return (
         <>
             <div className="card " style={{ width: "19rem", borderRadius: "10px" }}>
-                <img className="card-img-top m-auto  p-4 " src={imgUrl} alt="Card image" />
+                <img className={`card-img-top p-4 m-auto ${page==="blog"?"cardHeight":""}  ${page==="about"?"rounded-circle":""}`} src={imgUrl} alt="Card image" />
                 <div className="card-body">
                     <h1 className={` pb-3 card-title ${icons?"ms-4":""} title`}>{title}</h1>
                     <p className="card-text">{pera}</p>
+                    {page === "blog" ? <button className="btn btn-outline-dark">Read More</button>:""}
                     {icons ? <ul className="d-flex justify-content-around list-unstyled ">
                         <li><a className="text-decoration-none text-dark icon1 " href="#"><FontAwesomeIcon icon={faBars} /> {type}</a></li>
                         <li><a className="text-decoration-none text-dark icon2 " href="#"><FontAwesomeIcon icon={faChalkboardTeacher} /> {lessons}</a></li>
