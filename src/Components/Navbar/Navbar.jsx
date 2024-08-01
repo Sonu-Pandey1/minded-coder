@@ -65,10 +65,10 @@ function Navbar() {
                         <div>
                             <ul className="d-flex ms-auto flex-wrap mb-0">
                                 <li className="me-2 list-unstyled">
-                                    <button className="btn btn-outline-primary">Login</button>
+                                    <NavLink to={"/login"}><button className="btn btn-outline-primary">Login</button></NavLink>
                                 </li>
                                 <li className="list-unstyled">
-                                    <button className="btn btn-outline-primary">SignUp</button>
+                                <NavLink to={"/signup"}><button className="btn btn-outline-primary">Signup</button></NavLink>
                                 </li>
                             </ul>
                         </div>

@@ -11,6 +11,8 @@ import Contact from "./Pages/Contact"
 import Hader from "./Components/Hader/Hader"
 import Footer from "./Components/Footer/Footer"
 import "./App.css"
+import Login from "./Pages/Login"
+import Signup from "./Pages/Signup"
 
 function App() {
 
@@ -28,6 +30,9 @@ function App() {
         <Route path="about" element={<About/>}/>
         <Route path="blog" element={<Blog/>}/>
         <Route path="contact" element={<Contact/>}/>
+        <Route path="login" element={<Login/>}/>
+        <Route path="signup" element={<Signup/>}/>
+        <Route path="*" element={<h1>404 Page Not Found </h1>}/>
         </Route>
       </Routes>
       <Footer/>
