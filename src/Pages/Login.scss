@@ -1,4 +1,4 @@
-.signUpContainer{
+.loginContainer{
     // background-color: greenyellow;
     width: 100%;
     height: 90vh;
@@ -32,7 +32,7 @@
                         z-index: -1;
                         height: 320px;
                         width: 320px;
-                        background-color: rgba(127, 148, 255, 0.75);
+                        background-color: #8f6dffd3;
                         border-radius: 50px;
                         position:absolute;
                         top: 75px;
@@ -46,8 +46,8 @@
                         background-image: linear-gradient(
                           -225deg,
                           #00fffb 0%,
-                          #6253ff 56%,
-                          #ff3e58 100%
+                          #5242ff 56%,
+                          #ff2f4b 100%
                         );
                         background-clip: text;
                         -webkit-background-clip: text;
