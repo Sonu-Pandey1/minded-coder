@@ -11,6 +11,7 @@ function Courses() {
           </div>
         </div>
         <div className="row">
+        
           <div className="col mt-5">
             <Card imgUrl={"https://cdn-icons-png.flaticon.com/128/15773/15773160.png"} page={"home"} title={"HTML"} lessons={" 50 Lessons"} type={"Biginner"} icons={true} />
           </div>
