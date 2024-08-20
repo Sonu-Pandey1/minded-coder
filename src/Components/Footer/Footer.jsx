@@ -34,7 +34,7 @@ function Footer() {
       <div className="container-fluid  footerSection">
         <div className="container">
           <div className="row p-5 text-center">
-            <div className="col">
+            <div className="col-12 col-sm-4 col-md-4 col-lg-4 ">
 
               <h2 className="text-white">Minded Coder</h2>
               <p className="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus beatae eaque voluptates enim alias vero repudiandae? Architecto soluta ipsam repellat!</p>
@@ -49,7 +49,7 @@ function Footer() {
               </ul>
             </div>
 
-            <div className="col ">
+            <div className="col-12 col-sm-4 col-md-4 col-lg-4 ">
               <h4 className="text-white">Our Courses</h4>
 
               <ul className="mt-4 list-unstyled  ">
@@ -63,7 +63,7 @@ function Footer() {
 
             </div>
 
-            <div className="col">
+            <div className="col-12 col-sm-4 col-md-4 col-lg-4">
 
               <h4 className="text-white">Download App Now</h4>
               <ul className=" list-unstyled mt-4">
@@ -80,17 +80,17 @@ function Footer() {
           </div>
           <hr />
           <div className="row text-center">
-            <div className="col">
+            <div className="col-12 col-sm-4 col-md-4 col-lg-4">
               <ul className="d-flex gap-4  list-unstyled">
                 <li>Terms & Condition</li>
                 <li>Refund Policy</li>
                 <li>Contact</li>
               </ul>
             </div>
-            <div className="col">
+            <div className="col-12 col-sm-4 col-md-4 col-lg-4">
               <p>© Copyrights 2024 MindedCoder All rights reserved.</p>
             </div>
-            <div className="col ">
+            <div className="col-12 col-sm-4 col-md-4 col-lg-4">
               <p>Developed by <a className=" text-decoration-none" target="_blank" href="https://www.linkedin.com/in/sonu-pandey-9b375122a">Sonu Pandey</a></p>
             </div>
           </div>

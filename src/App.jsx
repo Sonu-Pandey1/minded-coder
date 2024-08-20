@@ -21,8 +21,8 @@ function App() {
 
   return (
     <>
-      {/* <Hader />
-      <Navbar /> */}
+      <Hader />
+      <Navbar />
       <Routes>
         <Route path="/">
           <Route index element={<Home />} />
@@ -43,7 +43,7 @@ function App() {
           <Route path="*" element={<h1>404 Page Not Found </h1>} />
         </Route>
       </Routes>
-      {/* <Footer /> */}
+      <Footer />
 
     </>
   )
