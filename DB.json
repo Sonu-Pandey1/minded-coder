@@ -1,0 +1,365 @@
+
+
+{
+    "htmlCourse": [
+        {
+            "id": 1,
+            "course": "html",
+            "courseImgSrc":"https://admin.ducatindia.com/tutorial/technology/1712150716686png-transparent-logo-html-html5.png",
+            "topicName": "Introduction to HTML | HTML Tutorial",
+            "src": "https://www.youtube.com/embed/dD2EISBDjWM?si=Iar8w68Q55jTDqQV"
+        },
+        {
+            "id": 2,
+            "course": "html",
+            "courseImgSrc":"url",
+            "topicName": "HTML Elements and Tags | HTML Tutorial",
+            "src": "https://www.youtube.com/embed/-USAeFpVf_A?si=Fd3ovXKiHSxuJ02T"
+        },
+        {
+            "id": 3,
+            "course": "html",
+            "courseImgSrc":"url",
+            "topicName": "HTML Attributes and Forms | HTML Tutorial",
+            "src": "https://www.youtube.com/embed/i3GE-toQg-o?si=izPxUTpgOhfJ6AsN"
+        },
+        {
+            "id": 4,
+            "course": "html",
+            "courseImgSrc":"url",
+            "topicName": "HTML Tables and Semantics | HTML Tutorial",
+            "src": "https://www.youtube.com/embed/09oErCBjVns?si=qWq_plS8ytS_-aSB"
+        },
+        {
+            "id": 5,
+            "course": "html",
+            "courseImgSrc":"url",
+            "topicName": "HTML Forms and Input Elements | HTML Tutorial",
+            "src": "https://www.youtube.com/embed/wvR40su_XBM?si=VQyOOB3eV8QQ1EA3"
+        },
+        {
+            "id": 6,
+            "course": "html",
+            "courseImgSrc":"url",
+            "topicName": "HTML Lists and Media | HTML Tutorial",
+            "src": "https://www.youtube.com/embed/U4UHoiK6Oo4?si=HZ41u8ucUsQTLG5D"
+        },
+        {
+            "id": 7,
+            "course": "html",
+            "courseImgSrc":"url",
+            "topicName": "Responsive Web Design with HTML | HTML Tutorial",
+            "src": "https://www.youtube.com/embed/bCt2FnyY7AE?si=DyD9leYT-rFkEUFN"
+        },
+        {
+            "id": 8,
+            "course": "html",
+            "courseImgSrc":"url",
+            "topicName": "HTML Layouts and Navigation | HTML Tutorial",
+            "src": "https://www.youtube.com/embed/Zy4KJeVN7Gk?si=tlgAY3CgvxNRHTE1"
+        },
+        {
+            "id": 9,
+            "course": "html",
+            "courseImgSrc":"url",
+            "topicName": "HTML5 Features and APIs | HTML Tutorial",
+            "src": "https://www.youtube.com/embed/dM12ctixdT4?si=fjQVfbPd3bIzBKTI"
+        },
+        {
+            "id": 10,
+            "course": "html",
+            "courseImgSrc":"url",
+            "topicName": "HTML Semantic Elements | HTML Tutorial",
+            "src": "https://www.youtube.com/embed/dM12ctixdT4?si=fjQVfbPd3bIzBKTI"
+        }
+    ],
+    "cssCourse": [
+        {
+            "id": 1,
+            "course": "css",
+            "courseImgSrc":"https://admin.ducatindia.com/tutorial/technology/1712151015271css.png",
+            "topicName": "Introduction to CSS | CSS Tutorial",
+            "src": "https://www.youtube.com/embed/PVBqZRAOZL8?si=yhmC4HXi5qRORzpC"
+        },
+        {
+            "id": 2,
+            "course": "css",
+            "courseImgSrc":"url",
+            "topicName": "CSS Selectors and Properties | CSS Tutorial",
+            "src": "https://www.youtube.com/embed/0e8L7yLYXJ4?si=O5g7SAIgCYsrxYET"
+        },
+        {
+            "id": 3,
+            "course": "css",
+            "courseImgSrc":"url",
+            "topicName": "CSS Layout Techniques | CSS Tutorial",
+            "src": "https://www.youtube.com/embed/ZT9zKm0_vDU?si=4E_vtv7AWlx-8ZEy"
+        },
+        {
+            "id": 4,
+            "course": "css",
+            "courseImgSrc":"url",
+            "topicName": "Responsive Design with CSS | CSS Tutorial",
+            "src": ""
+        },
+        {
+            "id": 5,
+            "course": "css",
+            "courseImgSrc":"url",
+            "topicName": "CSS Flexbox and Grid | CSS Tutorial",
+            "src": ""
+        },
+        {
+            "id": 6,
+            "course": "css",
+            "courseImgSrc":"url",
+            "topicName": "CSS Animation and Transitions | CSS Tutorial",
+            "src": ""
+        },
+        {
+            "id": 7,
+            "course": "css",
+            "courseImgSrc":"url",
+            "topicName": "Advanced CSS Topics | CSS Tutorial",
+            "src": ""
+        },
+        {
+            "id": 8,
+            "course": "css",
+            "courseImgSrc":"url",
+            "topicName": "CSS Preprocessors | CSS Tutorial",
+            "src": ""
+        },
+        {
+            "id": 9,
+            "course": "css",
+            "courseImgSrc":"url",
+            "topicName": "CSS Grid Layout | CSS Tutorial",
+            "src": ""
+        },
+        {
+            "id": 10,
+            "course": "css",
+            "courseImgSrc":"url",
+            "topicName": "CSS Frameworks | CSS Tutorial",
+            "src": ""
+        }
+    ],
+    "bootstrapCourse": [
+        {
+            "id": 1,
+            "course": "bootstrap",
+            "courseImgSrc":"https://admin.ducatindia.com/tutorial/technology/1714048883786boot.jpg",
+            "topicName": "Introduction to Bootstrap | Bootstrap Tutorial",
+            "src": "https://www.youtube.com/embed/wkSA9bfCmKU?si=_9XB1rxjlBNu77gn"
+        },
+        {
+            "id": 2,
+            "course": "bootstrap",
+            "courseImgSrc":"url",
+            "topicName": "Bootstrap Grid System | Bootstrap Tutorial",
+            "src": "https://www.youtube.com/embed/qGxZs0cVNbk?si=ylkRi6EZOzSAkCa5"
+        },
+        {
+            "id": 3,
+            "course": "bootstrap",
+            "courseImgSrc":"url",
+            "topicName": "Bootstrap Components | Bootstrap Tutorial",
+            "src": ""
+        },
+        {
+            "id": 4,
+            "course": "bootstrap",
+            "courseImgSrc":"url",
+            "topicName": "Customizing Bootstrap | Bootstrap Tutorial",
+            "src": ""
+        },
+        {
+            "id": 5,
+            "course": "bootstrap",
+            "courseImgSrc":"url",
+            "topicName": "Bootstrap Layouts | Bootstrap Tutorial",
+            "src": ""
+        },
+        {
+            "id": 6,
+            "course": "bootstrap",
+            "courseImgSrc":"url",
+            "topicName": "Bootstrap Typography | Bootstrap Tutorial",
+            "src": ""
+        },
+        {
+            "id": 7,
+            "course": "bootstrap",
+            "courseImgSrc":"url",
+            "topicName": "Bootstrap Forms and Buttons | Bootstrap Tutorial",
+            "src": ""
+        },
+        {
+            "id": 8,
+            "course": "bootstrap",
+            "courseImgSrc":"url",
+            "topicName": "Advanced Bootstrap Techniques | Bootstrap Tutorial",
+            "src": ""
+        },
+        {
+            "id": 9,
+            "course": "bootstrap",
+            "courseImgSrc":"url",
+            "topicName": "Bootstrap Navbars and Modals | Bootstrap Tutorial",
+            "src": ""
+        },
+        {
+            "id": 10,
+            "course": "bootstrap",
+            "courseImgSrc":"url",
+            "topicName": "Bootstrap Utilities | Bootstrap Tutorial",
+            "src": ""
+        }
+    ],
+    "javascriptCourse": [
+        {
+            "id": 1,
+            "course": "javascript",
+            "courseImgSrc":"https://admin.ducatindia.com/tutorial/technology/1712151078432javascript.png",
+            "topicName": "Introduction to JavaScript | JavaScript Tutorial",
+            "src": "https://www.youtube.com/embed/ER9SspLe4Hg"
+        },
+        {
+            "id": 2,
+            "course": "javascript",
+            "courseImgSrc":"url",
+            "topicName": "Variables in JavaScript | JavaScript Tutorial",
+            "src": "https://www.youtube.com/embed/Q4p8vRQX8uY"
+        },
+        {
+            "id": 3,
+            "course": "javascript",
+            "courseImgSrc":"url",
+            "topicName": "const, let and var in JavaScript | JavaScript Tutorial",
+            "src": "https://www.youtube.com/embed/Icev9Oxf0WA"
+        },
+        {
+            "id": 4,
+            "course": "javascript",
+            "courseImgSrc":"url",
+            "topicName": "Primitives and Objects in JavaScript | JavaScript Tutorial",
+            "src": "https://www.youtube.com/embed/qpU3WIqRz9I"
+        },
+        {
+            "id": 5,
+            "course": "javascript",
+            "courseImgSrc":"url",
+            "topicName": "JavaScript Chapter 1 - Practice Set | JavaScript Tutorial",
+            "src": "https://www.youtube.com/embed/vA-AAeqkpxM"
+        },
+        {
+            "id": 6,
+            "course": "javascript",
+            "courseImgSrc":"url",
+            "topicName": "JavaScript Operators and Expressions | JavaScript Tutorial",
+            "src": "https://www.youtube.com/embed/lsV8JQgSW1s"
+        },
+        {
+            "id": 7,
+            "course": "javascript",
+            "courseImgSrc":"url",
+            "topicName": "Conditional expressions in JavaScript | JavaScript Tutorial",
+            "src": "https://www.youtube.com/embed/s5Lu4QTjeL0"
+        },
+        {
+            "id": 8,
+            "course": "javascript",
+            "courseImgSrc":"url",
+            "topicName": "JavaScript Chapter 2 - Practice Set | JavaScript Tutorial",
+            "src": "https://www.youtube.com/embed/W77qmqrhCcA"
+        },
+        {
+            "id": 9,
+            "course": "javascript",
+            "courseImgSrc":"url",
+            "topicName": "For Loops in JavaScript | JavaScript Tutorial",
+            "src": "https://www.youtube.com/embed/XKyyM1VWtUE"
+        },
+        {
+            "id": 10,
+            "course": "javascript",
+            "courseImgSrc":"url",
+            "topicName": "While Loops in JavaScript | JavaScript Tutorial",
+            "src": "https://www.youtube.com/embed/drEjyBSu33w"
+        }
+    ],
+    "reactCourse": [
+        {
+            "id": 1,
+            "course": "react",
+            "courseImgSrc":"https://admin.ducatindia.com/tutorial/technology/1712410734138React.webp",
+            "topicName": "Introduction to React | React Tutorial",
+            "src": "https://www.youtube.com/embed/vz1RlUyrc3w?si=jdSFI86oX0D4C-hp"
+        },
+        {
+            "id": 2,
+            "course": "react",
+            "courseImgSrc":"url",
+            "topicName": "React Components and Props | React Tutorial",
+            "src": "https://www.youtube.com/embed/k3KqQvywToE?si=9BovHYSN3goBczIg"
+        },
+        {
+            "id": 3,
+            "course": "react",
+            "courseImgSrc":"url",
+            "topicName": "State and Lifecycle in React | React Tutorial",
+            "src": "https://www.youtube.com/embed/yNbnA5pryMg?si=IF6h1lzAmvcjS8MW"
+        },
+        {
+            "id": 4,
+            "course": "react",
+            "courseImgSrc":"url",
+            "topicName": "Handling Events in React | React Tutorial",
+            "src": ""
+        },
+        {
+            "id": 5,
+            "course": "react",
+            "courseImgSrc":"url",
+            "topicName": "React Forms and Hooks | React Tutorial",
+            "src": ""
+        },
+        {
+            "id": 6,
+            "course": "react",
+            "courseImgSrc":"url",
+            "topicName": "React Router | React Tutorial",
+            "src": ""
+        },
+        {
+            "id": 7,
+            "course": "react",
+            "courseImgSrc":"url",
+            "topicName": "React Context API | React Tutorial",
+            "src": ""
+        },
+        {
+            "id": 8,
+            "course": "react",
+            "courseImgSrc":"url",
+            "topicName": "Redux in React | React Tutorial",
+            "src": ""
+        },
+        {
+            "id": 9,
+            "course": "react",
+            "courseImgSrc":"url",
+            "topicName": "React Best Practices | React Tutorial",
+            "src": ""
+        },
+        {
+            "id": 10,
+            "course": "react",
+            "courseImgSrc":"url",
+            "topicName": " reaxt lession 10 | React Tutorial",
+            "src": ""
+        }
+    ]
+   
+}

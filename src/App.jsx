@@ -3,7 +3,9 @@ import "./../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import Navbar from "./Components/Navbar/Navbar"
 import Home from "./Pages/Home"
 import Courses from "./Pages/Courses"
+import CoursesView from "./Pages/CoursesView.jsx"
 import Tutorial from "./Pages/Tutorial"
+import TutorialView from "./Pages/TutorialView.jsx"
 import UpcomingBatches from "./Pages/UpcomingBatches"
 import About from "./Pages/AboutUs"
 import Blog from "./Pages/Blog"
@@ -24,8 +26,14 @@ function App() {
       <Routes>
         <Route path="/">
         <Route index element={<Home/>}/>
-        <Route path="courses" element={<Courses/>}/>
-        <Route path="tutorial" element={<Tutorial/>}/>
+        <Route path="courses">
+          <Route index element={<Courses/>}/>
+          <Route path=":id" element={<CoursesView/>}/>
+        </Route>
+        <Route path="tutorial">
+        <Route index element={<Tutorial/>}></Route>
+        <Route path=":id" element={<TutorialView/>}></Route>
+        </Route>
         <Route path="upcomingbatches" element={<UpcomingBatches/>}/>
         <Route path="about" element={<About/>}/>
         <Route path="blog" element={<Blog/>}/>
