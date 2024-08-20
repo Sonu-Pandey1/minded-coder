@@ -64,7 +64,7 @@ function Courses() {
         <div className="container-fluid">
           <div className="row">
             {/* videoContainer */}
-            <div className="col-8 videoContainer">
+            <div className="col-12 col-lg-8 col-md-12 col-sm-12 videoContainer">
               <iframe
                 id={"fname"}
                 className="videoFrame rounded-4"
@@ -79,7 +79,7 @@ function Courses() {
               ></iframe>
             </div>
             {/* Sidebar  */}
-            <div className="col-4 sidebarContainer">
+            <div className="col-12 col-lg-4 col-md-12 col-sm-12 sidebarContainer">
               <div className="row">
                 <div className="col-3 col1 bg-dark p-2">
                   <img

@@ -5,7 +5,7 @@ function Overview() {
         <div className="container-fluid">
             <h1>Introduction to JavaScript + Setup | JavaScript Tutorial in Hindi #1</h1>
             <div className="row">
-                <div className="col col-8">
+                <div className="col">
                 <div className="overviewContainer fs-5 ps-4 pt-2">
                 <p>Programming is a way to talk to computers. A language like Hindi, English or Bengali can be used to talk to a human but for computers we need straightforward instructions.</p>
 
