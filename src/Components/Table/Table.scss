@@ -19,4 +19,17 @@
     transition: background-color 0.3s ease; /* Smooth transition */
 }
 
+.table {
+    font-size: 14px; // Adjust font size for better readability on small screens
+}
+
+.table th, .table td {
+    padding: 0.75rem; // Adjust padding as needed
+}
+
+@media (max-width: 576px) {
+    .table th, .table td {
+        padding: 0.5rem; // Further reduce padding on extra small screens
+    }
+}
 

@@ -1,14 +1,15 @@
+
 import Table from "../Components/Table/Table"
 import "./UpcomingBatches.scss"
 
 function UpcomingBatches() {
   return (
-    <div className="MainContainer">
-      <h1 className="text-center">Our Upcoming Batches</h1>
+    <div className="MainContainer my-5">
+      <h1 className="text-center mb-4">Our Upcoming Batches</h1>
       <div className="container">
-        <div className="row">
-          <div className="col ">
-            <Table/>
+        <div className="row justify-content-center">
+          <div className="col-12 overflow-auto">
+            <Table />
           </div>
         </div>
       </div>
@@ -17,3 +18,4 @@ function UpcomingBatches() {
 }
 
 export default UpcomingBatches
+
