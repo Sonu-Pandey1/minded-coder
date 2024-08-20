@@ -27,7 +27,7 @@ function AboutUs() {
           <div className="row row3">
             <div className="col col3">
               <h3 className=" mt-5 pt-5 textGradient">Benifits</h3>
-              <div className=" text-center 0cardsContainer d-flex justify-content-between mt-5 flex-wrap">
+              <div className="row text-center 0cardsContainer d-flex justify-content-evenly mt-5 flex-wrap">
                 <Card page={"about"} imgUrl={"https://scalive.in/assets/images/category/1.png"} pera={"We want to help you in building a career you love. Get trained in cutting edge technologies, with hands-on practice, helping you in changing your career or succeeding in the job you already have."} title={"Give a flight to your career"} />
                 <Card page={"about"} imgUrl={"https://scalive.in/assets/images/category/2.png"} pera={"We provide Daily/alternate days Classes at our academy. Also, students get assistance throughout online/offline classes.They can easily join our online classes at their comfort zone at anywhere in any place."} title={"Offline & Online classes"} />
                 <Card page={"about"} imgUrl={"https://scalive.in/assets/images/category/3.png"} pera={"We pay equal importance to student's practical knowledge as well as theoretical lessons. We also provide assistance in the revision of course material like pdf, ppt, codes and hand written notes for students."} title={"Practice and revise"} />
