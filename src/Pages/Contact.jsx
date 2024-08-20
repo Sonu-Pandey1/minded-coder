@@ -39,18 +39,18 @@ const Contact = () => {
 
   return (
     <div className='Contact'>
-      <div className="row">
-        <div className="col">
+      <div className="row row0">
+        <div className="col col0">
           <h1 className='text-center textGradient'>Contact Us</h1>
         </div>
       </div>
       <div className=" container  contact-container">
-        <div className='row'>
-          <div className=' col col-6 col1 p-4 '>
+        <div className='row align-items-center'>
+          <div className='col-sm-12 col-md-6 col-lg-6 col1 p-4 '>
             <h4>Get In Touch</h4>
             <Form onSubmit={handleSubmit} className='text-center'>
-              <Row>
-                <Col md={6}>
+              <Row >
+                <Col md={6} className='mb-3'>
                   <Form.Group controlId="formName">
                     <Form.Control
                       type="text"
@@ -62,7 +62,7 @@ const Contact = () => {
                     />
                   </Form.Group>
                 </Col>
-                <Col md={6}>
+                <Col md={6} className='mb-3'>
                   <Form.Group controlId="formEmail">
                     <Form.Control
                     
@@ -77,8 +77,8 @@ const Contact = () => {
                   </Form.Group>
                 </Col>
               </Row>
-              <Row className="mt-3">
-                <Col md={6}>
+              <Row >
+                <Col className='mb-3' md={6} >
                   <Form.Group controlId="formPhone">
                     <Form.Control
                       type="text"
@@ -90,7 +90,7 @@ const Contact = () => {
                     />
                   </Form.Group>
                 </Col>
-                <Col md={6}>
+                <Col md={6} className='mb-3'>
                   <Form.Group controlId="formCity">
                     <Form.Control
                       type="text"
@@ -120,7 +120,7 @@ const Contact = () => {
             </Form>
           </div>
 
-          <div className='col col-6 ps-5'>
+          <div className='col-sm-12 col-md-6 col-lg-6 col2 p-4 '>
             <div className="contact-info">
               <div className="info-item">
                 <FontAwesomeIcon icon="home" className="info-icon" />
