@@ -8,7 +8,7 @@
     padding-bottom: 20px;
 
     .row{
-        .col{
+        .coll{
             .imgContainer{
                 img{
                     border-radius: 10%;
@@ -18,7 +18,7 @@
             }
         }
 
-        .col{
+        .coll{
             .formContainer{
                 position: relative;
                 .form{
@@ -77,6 +77,24 @@
 
                 }
             }
+        }
+    }
+}
+
+
+
+@media (max-width: 1200px) {
+    .form{
+        &::before{
+            display: none !important;
+        }
+    }
+}
+@media (min-width: 1200px) {
+    .form{
+        &::before{
+            width: 50% !important;
+            background-color: #6dffc0d3 !important;
         }
     }
 }

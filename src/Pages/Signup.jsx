@@ -7,13 +7,13 @@ function Signup() {
                 <div className="container">
                     <div className="row ">
 
-                        <div className="col">
+                        <div className="coll col-md-6 col-sm-12">
                             <div className="imgContainer text-center">
-                                <img src="https://img.freepik.com/premium-vector/illustration-vector-graphic-cartoon-character-online-registration_516790-1807.jpg?size=626&ext=jpg&ga=GA1.1.1381281151.1722480315&semt=ais_hybrid" alt="SignUp Img" />
+                                <img src="https://img.freepik.com/premium-vector/illustration-vector-graphic-cartoon-character-online-registration_516790-1807.jpg?size=626&ext=jpg&ga=GA1.1.1381281151.1722480315&semt=ais_hybrid" alt="SignUp Img" className=" img-fluid" />
                             </div>
                         </div>
 
-                        <div className="col align-content-center parentFormContainer ">
+                        <div className="coll col-md-6 col-sm-12 my-4 align-content-center parentFormContainer ">
                             <div className="formContainer d-flex justify-content-center ">
                                 <form className=" form text-center">
                                     <h2 className="">SignUp</h2>
