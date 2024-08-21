@@ -1,11 +1,12 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faFacebook, faInstagram, faLinkedin, faTelegramPlane, faYoutube } from "@fortawesome/free-brands-svg-icons"
 import "./Footer.scss"
+import { NavLink } from "react-router-dom"
 
 function Footer() {
   return (
     <>
-        {/* upperFooter section */}
+      {/* upperFooter section */}
 
       <div className="uf-session">
         <div className="container-fluid">
@@ -17,7 +18,9 @@ function Footer() {
 
             <div className="col col1 p-5 m-5 text-center align-content-center">
               <h1>Ready to kick-start your career?</h1>
-              <button className="btn btn-outline-dark mt-4">Join Us Now</button>
+              <NavLink to={"contact"}>
+                <button className="btn btn-outline-dark mt-4">Join Us Now</button>
+              </NavLink>
             </div>
 
             <div className="col-3 ps-5 align-content-center mt-5 pt-5">
@@ -53,12 +56,32 @@ function Footer() {
               <h4 className="text-white">Our Courses</h4>
 
               <ul className="mt-4 list-unstyled  ">
-                <li className="mb-2">Html</li>
-                <li className="mb-2">Javascript</li>
-                <li className="mb-2">React</li>
-                <li className="mb-2">Redux</li>
-                <li className="mb-2">MnogoDb</li>
-                <li className="mb-2">Next-js</li>
+                <NavLink className={"text-decoration-none footerNav"} to={"courses/html"}>
+                  <li className="mb-2">Html</li>
+                </NavLink>
+                <NavLink className={"text-decoration-none footerNav"} to={"courses/css"}>
+                  <li className="mb-2">Css</li>
+                </NavLink>
+                <NavLink className={"text-decoration-none footerNav"} to={"courses/javascript"}>
+                  <li className="mb-2">Javascript</li>
+                </NavLink>
+                <NavLink className={"text-decoration-none footerNav"} to={"courses/react"}>
+                  <li className="mb-2">React</li>
+                </NavLink>
+                <NavLink className={"text-decoration-none footerNav"} to={"courses/redux"}>
+                  <li className="mb-2">Redux</li>
+                </NavLink>
+                <NavLink className={"text-decoration-none footerNav"} to={"courses/mnogoDb"}>
+                  <li className="mb-2">MnogoDb</li>
+                </NavLink>
+                <NavLink className={"text-decoration-none footerNav"} to={"courses/nextjs"}>
+                  <li className="mb-2">Next-js</li>
+                </NavLink>
+
+
+
+
+
               </ul>
 
             </div>
