@@ -16,6 +16,7 @@ import "./App.css"
 import Login from "./Pages/Login"
 import Signup from "./Pages/Signup"
 import PWABadge from "./PWABadge.jsx"
+import ScrollToTop from "react-scroll-to-top"
 
 function App() {
 
@@ -45,7 +46,9 @@ function App() {
         </Route>
       </Routes>
       <Footer />
+      <ScrollToTop smooth/>
       <PWABadge />
+      
     </>
   )
 }
