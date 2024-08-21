@@ -45,8 +45,7 @@ function App() {
         </Route>
       </Routes>
       <Footer />
-
-      <PWABadge/>
+      <PWABadge />
     </>
   )
 }
