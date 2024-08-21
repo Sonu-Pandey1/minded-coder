@@ -15,6 +15,7 @@ import Footer from "./Components/Footer/Footer"
 import "./App.css"
 import Login from "./Pages/Login"
 import Signup from "./Pages/Signup"
+import PWABadge from "./PWABadge.jsx"
 
 function App() {
 
@@ -45,6 +46,7 @@ function App() {
       </Routes>
       <Footer />
 
+      <PWABadge/>
     </>
   )
 }
